@@ -14,74 +14,50 @@
       src="https://kit.fontawesome.com/3e4e248e08.js"
       crossorigin="anonymous"
     ></script>
-    <title>Hệ thống bán laptop</title>
+    <title>Sản phẩm</title>
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="navbar">
-          <div class="logo">
-            <img
-              width="60px"
-              height="60px"
-              style="border-radius: 50%"
-              src="./images/logo.png"
-              alt="logo"
-            />
-          </div>
-          <nav>
-            <ul id="menuItems">
-              <li><a href="index.html">Trang chủ</a></li>
-              <li><a href="product.html">Sản phẩm</a></li>
-              <li><a href="about.html">Giới thiệu</a></li>
-              <li><a href="contact.html">Liên hệ</a></li>
-              <li><a href="account.html">Tài khoản</a></li>
-            </ul>
-          </nav>
-          <img src="./images/cart.png" width="30px" height="30px" alt="cart" />
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
           <img
-            class="menu-icon"
-            src="./images/menu.png"
-            alt="menu"
-            onclick="menuToggle()"
+            width="60px"
+            height="60px"
+            style="border-radius: 50%"
+            src="./images/logo.png"
+            alt="logo"
           />
         </div>
-        <div class="row">
-          <div class="col-2">
-            <h1>Laptop giá cực rẻ</h1>
-            <p>
-              Hàng chính hãng, sản phẩm chất lượng, an tâm sử dụng. <br />Ở đâu
-              rẻ hơn, cam kết hoàn tiền
-            </p>
-            <a href="" class="btn">Mua ngay &#8594;</a>
-          </div>
-          <div class="col-2">
-            <img src="./images/banner.png" alt="banner" />
-          </div>
-        </div>
+        <nav>
+          <ul id="menuItems">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="product.html">Sản phẩm</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+            <li><a href="account.html">Tài khoản</a></li>
+          </ul>
+        </nav>
+        <img src="./images/cart.png" width="30px" height="30px" alt="cart" />
+        <img
+          class="menu-icon"
+          src="./images/menu.png"
+          alt="menu"
+          onclick="menuToggle()"
+        />
       </div>
     </div>
 
-    <!-- featured categories -->
-    <div class="categories">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <img src="./images/category-1.jpg" alt="category-1" />
-          </div>
-          <div class="col-3">
-            <img src="./images/category-2.jpg" alt="category-2" />
-          </div>
-          <div class="col-3">
-            <img src="./images/category-3.jpg" alt="category-3" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- featured products -->
     <div class="small-container">
-      <h2 class="title">Sản phẩm đặc trưng</h2>
+      <div class="row row-2">
+        <h2>Tất cả sản phẩm</h2>
+        <select name="" id="">
+          <option value="">Sắp xếp theo mặc định</option>
+          <option value="">Sắp xếp theo giá</option>
+          <option value="">Sắp xếp theo phổ biến</option>
+          <option value="">Sắp xếp theo đánh giá</option>
+          <option value="">Sắp xếp theo bán chạy</option>
+        </select>
+      </div>
       <div class="row">
         <div class="col-4">
           <img src="./images/product-1.jpg" alt="product-1" />
@@ -132,8 +108,6 @@
           <p>33.990.000₫</p>
         </div>
       </div>
-
-      <h2 class="title">Sản phẩm mới nhất</h2>
       <div class="row">
         <div class="col-4">
           <img src="./images/product-5.jpg" alt="product-5" />
@@ -234,113 +208,13 @@
           <p>31.990.000₫</p>
         </div>
       </div>
-    </div>
 
-    <!-- offer -->
-    <div class="offer">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-2">
-            <img class="offer-img" src="./images/offer.png" alt="offer" />
-          </div>
-          <div class="col-2">
-            <h1>HP Pavilion x360 dw1016TU i3</h1>
-            <small>
-              Laptop 2 trong 1 với cấu hình đủ dùng, trọng lượng mỏng nhẹ thỏa
-              sức dịch chuyển cùng cơ chế sử dụng linh hoạt cho bạn thỏa sức làm
-              việc, giải trí và sáng tạo.
-            </small>
-            <a href="" class="btn">Mua ngay &#8594;</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- testimonial -->
-    <div class="testimonial">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-3">
-            <i class="fas fa-quote-left"></i>
-            <p>
-              Mình mua mấy lần laptop ở cửa hàng rồi nhưng những lần trước là
-              mua của hãng khác, lần này chuyển hẳn sang apple xem như nào. Cảm
-              nhận ban đầu là: máy nhỏ gọn, lịch thiệp và màu sắc nhẹ nhàng tinh
-              tế, còn lướt thì nhanh như 1 cơn gió, khởi động máy cũng nhanh mà
-              tắt máy cũng nhanh, còn chưa kịp nhìn máy đã tắt rồi.
-            </p>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-            <img src="./images/user-1.jpeg" alt="user-1" />
-            <h3>Phạm Mai Loan</h3>
-          </div>
-          <div class="col-3">
-            <i class="fas fa-quote-left"></i>
-            <p>
-              Mình luôn chọn máy tính asus cho nhu cầu chơi game vì bảo hành 2
-              năm, cấu hình mạnh, máy không nóng quá khi chơi trong thời gian
-              dài, màn hình 144hz mịn khi chơi game, tuy máy hơi nặng nhưng chơi
-              game thì thích đấy, hiệu năng chơi game mạnh mẽ, ổ cứng ssd cài
-              game nhanh, chơi game mượt.
-            </p>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-            <img src="./images/user-2.jpg" alt="user-2" />
-            <h3>Lê Đức Tuấn Anh</h3>
-          </div>
-          <div class="col-3">
-            <i class="fas fa-quote-left"></i>
-            <p>
-              Thật sự không có gì để phàn nàn về chất lượng và hiệu năng của em
-              laptop này. Duy chỉ có điều là phần vỏ máy được thiết kế vân xước
-              bề mặt tuy nhìn khá đẹp nhưng dễ bám vân tay trong quá trình sử
-              dụng, gây mất thẩm mỹ. Hi vọng Asus sẽ khắc phục được điểm này
-              trong những phiên bản sau.
-            </p>
-            <div class="rating">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-            <img src="./images/user-3.jpg" alt="user-3" />
-            <h3>Nguyễn Thị Như Ngọc</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- brands -->
-    <div class="brands">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-5">
-            <img src="./images/brand-1.jpeg" alt="brand-1" />
-          </div>
-          <div class="col-5">
-            <img src="./images/brand-2.png" alt="brand-2" />
-          </div>
-          <div class="col-5">
-            <img src="./images/brand-3.png" alt="brand-3" />
-          </div>
-          <div class="col-5">
-            <img src="./images/brand-4.png" alt="brand-4" />
-          </div>
-          <div class="col-5">
-            <img src="./images/brand-5.png" alt="brand-5" />
-          </div>
-        </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
       </div>
     </div>
 
