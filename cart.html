@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3e4e248e08.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Giỏ hàng</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img
+            width="60px"
+            height="60px"
+            style="border-radius: 50%"
+            src="./images/logo.png"
+            alt="logo"
+          />
+        </div>
+        <h1 style="color: #ff523b; margin-left: 10px">LapShop</h1>
+        <nav>
+          <ul id="menuItems">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="product.html">Sản phẩm</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+            <li><a href="account.html">Tài khoản</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html">
+          <img
+            class="active"
+            src="./images/cart.png"
+            width="30px"
+            height="30px"
+            alt="cart"
+          />
+        </a>
+        <img
+          class="menu-icon"
+          src="./images/menu.png"
+          alt="menu"
+          onclick="menuToggle()"
+        />
+      </div>
+    </div>
+
+    <!-- cart items details -->
+    <div class="small-container cart-page">
+      <h1>Giỏ hàng</h1>
+      <table>
+        <tr>
+          <th>Sản phẩm</th>
+          <th>Số lượng</th>
+          <th>Đơn giá</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-1.jpg" alt="product 1" />
+              <div>
+                <p>HP 340s G7 i3</p>
+                <small>Giá: 12.590.000₫</small>
+                <br />
+                <a href="#">Xoá</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>12.590.000₫</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-2.jpg" alt="product 2" />
+              <div>
+                <p>Acer Nitro 5 AN515 45 R3SM R5</p>
+                <small>Giá: 22.490.000₫</small>
+                <br />
+                <a href="#">Xoá</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>22.490.000₫</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-3.jpg" alt="product 3" />
+              <div>
+                <p>Apple Macbook Pro M1 2020</p>
+                <small>Giá: 52.490.000₫</small>
+                <br />
+                <a href="#">Xoá</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>52.490.000₫</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/product-4.jpeg" alt="product 4" />
+              <div>
+                <p>Asus ZenBook Duo UX482EG i5</p>
+                <small>Giá: 33.990.000₫</small>
+                <br />
+                <a href="#">Xoá</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>33.990.000₫</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Tổng tiền</td>
+            <td>121.560.000₫</td>
+          </tr>
+          <tr>
+            <td>Phí vận chuyển</td>
+            <td>150.000₫</td>
+          </tr>
+          <tr>
+            <td>Tổng thanh toán</td>
+            <td>121.710.000₫</td>
+          </tr>
+        </table>
+      </div>
+      <button class="btn" style="float: right" type="submit">Thanh toán</button>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Tải ứng dụng của chúng tôi</h3>
+            <p>Tải ứng dụng cho điện thoại Android và iOS.</p>
+            <div class="app-logo">
+              <img src="./images/app-store.png" alt="app store" />
+              <img src="./images/play-store.png" alt="play store" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./images/logo.png" alt="logo" />
+            <p>
+              Chúng tôi luôn cung cấp những sản phẩm chất lượng cao, và luôn đem
+              sự hài đến với khách hàng.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Tổng đài hỗ trợ (Miễn phí gọi)</h3>
+            <ul>
+              <li>Gọi mua: 1800.1060 (7:30 - 22:00)</li>
+              <li>Kỹ thuật: 1800.1763 (7:30 - 22:00)</li>
+              <li>Khiếu nại: 1800.1062 (8:00 - 21:30)</li>
+              <li>Bảo hành: 1800.1064 (8:00 - 21:00)</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Theo dõi chúng tôi</h3>
+            <ul>
+              <li>Zalo</li>
+              <li>YouTube</li>
+              <li>Facebook</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &#169; 2021 - LapShop</p>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
