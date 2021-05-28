@@ -478,6 +478,7 @@ th:last-child {
 .account-page {
   padding: 50px 0;
   background: radial-gradient(#fff, #92d7da);
+  height: 70vh;
 }
 
 .form-container {
@@ -562,6 +563,7 @@ form a {
 /* contact page */
 .contact-page {
   padding: 50px 0;
+  height: 70vh;
 }
 
 .feedback {
@@ -674,6 +676,14 @@ form a {
   }
 
   .about-page {
+    height: 100%;
+  }
+
+  .contact-page {
+    height: 100%;
+  }
+
+  .account-page {
     height: 100%;
   }
 }
