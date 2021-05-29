@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3e4e248e08.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tin tức mới</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img
+            width="60px"
+            height="60px"
+            style="border-radius: 50%"
+            src="./images/logo.png"
+            alt="logo"
+          />
+        </div>
+        <h1 style="color: #ff523b; margin-left: 10px">LapShop</h1>
+        <nav>
+          <ul id="menuItems">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="product.html">Sản phẩm</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+            <li><a class="active" href="news.html">Tin tức</a></li>
+            <li><a href="account.html">Tài khoản</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="./images/cart.png" width="30px" height="30px" alt="cart"
+        /></a>
+        <img
+          class="menu-icon"
+          src="./images/menu.png"
+          alt="menu"
+          onclick="menuToggle()"
+        />
+      </div>
+    </div>
+
+    <!-- news page -->
+    <div class="news-page">
+      <div class="container">
+        <h1>Tin tức mới</h1>
+        <div class="row news-row">
+          <div class="col-6">
+            <a href="./news-details-1.html"
+              ><img src="./images/news-1.jpeg" alt="news-1"
+            /></a>
+          </div>
+          <div class="col-7">
+            <a href="./news-details-1.html">
+              <h4>Tin Mới</h4>
+              <h2>
+                Huawei ra mắt laptop Matebook D14 và D15 chạy CPU Ryzen 5000
+                series
+              </h2>
+              <p>
+                Huawei vừa ra mắt phiên bản mới của dòng laptop Matebook D14 và
+                MateBook D15 với bộ vi xử lý AMD Ryzen 5000 series thế hệ mới
+                nhất.
+              </p>
+              <small>Lê Ngọc Hồng Quân - một ngày trước</small>
+            </a>
+          </div>
+        </div>
+        <div class="row news-row">
+          <div class="col-6">
+            <a href="./news-details-2.html">
+              <img src="./images/news-2.jpg" alt="news-2" />
+            </a>
+          </div>
+          <div class="col-7">
+            <a href="./news-details-2.html">
+              <h4>Tin Mới</h4>
+              <h2>
+                Xiaomi ra mắt bộ đôi laptop RedmiBook Pro 15 và Pro 14 với màn
+                hình 90Hz, chip Ryzen 5800H
+              </h2>
+              <p>
+                Xiaomi vừa bổ sung thêm phiên bản chạy AMD 5000 series cho dòng
+                laptop RedmiBook Pro, mức giá so với cấu hình vẫn rất hấp dẫn.
+              </p>
+              <small>Lê Ngọc Hồng Quân - một ngày trước</small></a
+            >
+          </div>
+        </div>
+        <div class="row news-row">
+          <div class="col-6">
+            <a href="./news-details-3.html">
+              <img src="./images/news-3.jpg" alt="news-1" />
+            </a>
+          </div>
+          <div class="col-7">
+            <a href="./news-details-3.html">
+              <h4>Đánh Giá – Tư Vấn</h4>
+              <h2>
+                Chiếc laptop cao cấp Lenovo sẽ giúp bạn học tập và làm việc tại
+                nhà hiệu quả
+              </h2>
+              <p>
+                Với thiết kế đẹp mắt và có lợi thế cấu hình nổi bật hàng đầu thị
+                trường, bộ sưu tập laptop Lenovo cao cấp trong bài viết này sẽ
+                là công cụ thực sự tuyệt vời để bạn yên tâm làm việc và học tập
+                tại nhà trong mùa dịch phức tạp hiện nay.
+              </p>
+              <small>Nguyễn Quốc Anh - 3 ngày trước</small>å</a
+            >
+          </div>
+        </div>
+        <div class="row news-row">
+          <div class="col-6">
+            <a href="./news-details-4.html">
+              <img src="./images/news-4.jpg" alt="news-1" />
+            </a>
+          </div>
+          <div class="col-7">
+            <a href="./news-details-4.html">
+              <h4>Tin Mới</h4>
+              <h2>
+                MacBook Pro 16 inch 2021 lộ ảnh render với thiết kế tuyệt đẹp
+              </h2>
+              <p>
+                Theo các tin đồn xuất hiện thời gian qua cho biết, Apple đang
+                làm việc để ra mắt thế hệ MacBook Pro tiếp theo của mình trong
+                năm nay, dự kiến bao gồm 2 model là 14 inch và 16 inch.
+              </p>
+              <small>Nguyễn Nghĩa - 3 ngày trước</small>
+            </a>
+          </div>
+        </div>
+        <div class="row news-row">
+          <div class="col-6">
+            <a href="./news-details-5.html">
+              <img src="./images/news-5.jpg" alt="news-1" />
+            </a>
+          </div>
+          <div class="col-7">
+            <a href="./news-details-5.html">
+              <h4>Đánh Giá – Tư Vấn</h4>
+              <h2>6 lệnh CMD hữu ích cho máy tính mà bạn vẫn nên sử dụng</h2>
+              <p>
+                Sau nhiều năm, hệ điều hành Windows đã thay đổi rất nhiều theo
+                chiều hướng tích cực. Tuy nhiên, có nhiều lệnh CMD hữu ích mà
+                bạn nên tận dụng để cải thiện trải nghiệm sử dụng máy tính của
+                mình.
+              </p>
+              <small>Quang Bảo - 3 ngày trước</small>
+            </a>
+          </div>
+        </div>
+        <div class="page-btn">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>&#8594;</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Tải ứng dụng của chúng tôi</h3>
+            <p>Tải ứng dụng cho điện thoại Android và iOS.</p>
+            <div class="app-logo">
+              <img src="./images/app-store.png" alt="app store" />
+              <img src="./images/play-store.png" alt="play store" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./images/logo.png" alt="logo" />
+            <p>
+              Chúng tôi luôn cung cấp những sản phẩm chất lượng cao, và luôn đem
+              sự hài đến với khách hàng.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Tổng đài hỗ trợ (Miễn phí gọi)</h3>
+            <ul>
+              <li>Gọi mua: 1800.1060 (7:30 - 22:00)</li>
+              <li>Kỹ thuật: 1800.1763 (7:30 - 22:00)</li>
+              <li>Khiếu nại: 1800.1062 (8:00 - 21:30)</li>
+              <li>Bảo hành: 1800.1064 (8:00 - 21:00)</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Theo dõi chúng tôi</h3>
+            <ul>
+              <li>Zalo</li>
+              <li>YouTube</li>
+              <li>Facebook</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &#169; 2021 - LapShop</p>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

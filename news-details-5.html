@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3e4e248e08.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>6 lệnh CMD hữu ích cho máy tính mà bạn vẫn nên sử dụng</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <img
+            width="60px"
+            height="60px"
+            style="border-radius: 50%"
+            src="./images/logo.png"
+            alt="logo"
+          />
+        </div>
+        <h1 style="color: #ff523b; margin-left: 10px">LapShop</h1>
+        <nav>
+          <ul id="menuItems">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="product.html">Sản phẩm</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+            <li><a class="active" href="news.html">Tin tức</a></li>
+            <li><a href="account.html">Tài khoản</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="./images/cart.png" width="30px" height="30px" alt="cart"
+        /></a>
+        <img
+          class="menu-icon"
+          src="./images/menu.png"
+          alt="menu"
+          onclick="menuToggle()"
+        />
+      </div>
+    </div>
+
+    <!-- news-details page -->
+    <div class="news-details">
+      <div class="container">
+        <h1>6 lệnh CMD hữu ích cho máy tính mà bạn vẫn nên sử dụng</h1>
+        <div class="row">
+          <div>
+            <small>Quang Bảo - 3 ngày trước</small>
+            <div class="news-details-content">
+              <p>
+                Các lệnh CMD chưa bao giờ là vô dụng đối với hệ điều hành
+                Windows. Trên thực tế, Microsoft vẫn giới thiệu các lệnh mới
+                trong các phiên bản Windows gần đây. Ở bài viết này, LapShop sẽ
+                liệt kê ra các lệnh CMD hữu ích mà mọi người vẫn nên sử dụng
+                trên máy tính của mình.
+              </p>
+            </div>
+            <div class="news-details-img">
+              <img src="./images/news-details-5-1.jpg" alt="" />
+            </div>
+
+            <div class="news-details-content">
+              <p>
+                <b>Echo</b> <br />
+                Về bản chất, lệnh echo có rất ít liên quan đối với đại đa số
+                người dùng Windows. Tuy nhiên, bạn có thể sử dụng lệnh cụ thể là
+                echo off | clip như một công cụ để xóa mục cuối cùng trên
+                Clipboard. Điều này sẽ rất hữu ích khi bạn đã sao chép thông tin
+                nhạy cảm và không còn muốn sử dụng tiếp nữa. Mặc dù thế, bạn nên
+                ghi nhớ rằng lệnh này sẽ không xóa toàn bộ lịch sử Clipboard của
+                bạn, vì vậy bạn sẽ phải sử dụng cài đặt Clipboard của Windows 10
+                để làm điều đó.
+              </p>
+            </div>
+
+            <div class="news-details-img">
+              <img src="./images/news-details-5-2.jpg" alt="" />
+            </div>
+            <div class="news-details-content">
+              <p>
+                <b>Powercfg</b> <br />
+                Lệnh powercfg có thể được sử dụng cho cả máy tính để bàn (PC) và
+                máy tính xách tay. Nó còn hữu ích hơn nếu bạn cần chuyển đổi
+                sang chế độ ngủ đông powercfg /hibernate hoặc xem phần mềm nào
+                khiến máy tính thoát khỏi chế độ ngủ đông powercfg /lastwake.
+                Tuy vậy, laptop được hưởng lợi nhiều nhất từ lệnh powercfg,
+                chẳng hạn như báo cáo về pin powercfg /batteryreport. Nếu bạn
+                cảm thấy tuổi thọ pin của laptop không tốt, thông tin từ lệnh
+                này sẽ cho bạn nắm được thông tin chi tiết về pin tại thời điểm
+                đó. Theo mặc định, báo cáo về pin sẽ lưu vào thư mục user trên
+                Windows 10 dưới tên "battery-report.html".
+              </p>
+            </div>
+
+            <div class="news-details-img">
+              <img src="./images/news-details-5-3.jpg" alt="" />
+            </div>
+            <div class="news-details-content">
+              <p>
+                <b>Ipconfig</b> <br />
+
+                Lệnh ipconfig cung cấp một bản tóm tắt ngắn gọn về địa chỉ IP
+                cục bộ của kết nối mạng đang hoạt động. Tuy vậy, lợi ích thực sự
+                của lệnh ipconfig là khi xử lý sự cố mạng của Windows 10 thông
+                qua các lệnh cụ thể như ipconfig /release và ipconfig /renew.
+                Bạn cũng có thể xem thông tin chi tiết đầy đủ về tất cả kết nối
+                mạng, bao gồm cả địa chỉ MAC qua lệnh cụ thể là ipconfig /all.
+              </p>
+            </div>
+            <div class="news-details-img">
+              <img src="./images/news-details-5-4.jpg" alt="" />
+            </div>
+            <div class="news-details-content">
+              <p>
+                <b>Tracert</b> <br />
+
+                Nếu không thể kết nối với một trang web và bạn đang muốn biết lý
+                do tới từ kết nối mạng của mình hay từ chính trang web đó, lệnh
+                tracert sẽ hữu ích thực sự. Để sử dụng lệnh này, bạn hãy nhập
+                lệnh sau vào CMD: tracert [địa chỉ website hoặc địa chỉ ip].
+                Lệnh tracert hoạt động tương tự như ping vì nó gửi các gói dữ
+                liệu đến trang web và chờ phản hồi. Tuy vậy, lệnh này có kèm
+                thêm một báo cáo hi tiết về hành trình mà dữ liệu thực hiện. Nếu
+                thấy điểm dừng của gói dữ liệu ở đâu, bạn sẽ biết được nơi để
+                khắc phục sự cố.
+              </p>
+            </div>
+            <div class="news-details-img">
+              <img src="./images/news-details-5-5.jpg" alt="" />
+            </div>
+
+            <div class="news-details-content">
+              <p>
+                <b>Sfc</b> <br />
+                Khi một lỗi nào đó trên Windows xuất hiện (ví du: các biểu tượng
+                trên thanh tác vụ biến mất), bạn nên sử dụng lệnh sfc để kiểm
+                tra các vấn đề liên quan tới hệ thống. Việc chạy lệnh sfc
+                /scannow sẽ kiểm tra các tệp bị hỏng trên hệ thống của bạn và cố
+                gắng sửa chữa chúng. Tuy nhiên, bạn sẽ cần cấp quyền Run as
+                administrator cho CMD trước khi khởi chạy nó. Để làm thế, bạn
+                hãy nhấn chuột phải vào kết quả tìm kiếm Command Prompt và chọn
+                Run as administrator.
+              </p>
+            </div>
+            <div class="news-details-img">
+              <img src="./images/news-details-5-6.jpg" alt="" />
+            </div>
+            <div class="news-details-content">
+              <p>
+                <b>Chkdsk</b> <br />
+                Bạn có thể đã quen thuộc với chkdsk. Sau khi máy tính bị tắt đột
+                ngột, Windows sẽ tạm dừng khởi động lại để chạy lệnh chkdsk và
+                kiểm tra các thành phần xấu (bad) cũng như sửa lỗi trên ổ cứng.
+                Nếu nghi ngờ một trong các ổ cứng của mình có vấn đề, bạn cũng
+                có thể sử dụng lệnh này để kiểm tra và sửa lỗi.
+              </p>
+            </div>
+            <div class="news-details-img">
+              <img src="./images/news-details-5-7.jpg" alt="" />
+            </div>
+            <div class="news-details-content">
+              <p>
+                Hãy mở Command Prompt với tư cách quản trị viên (Run as
+                administrator), sau đó nhập chkdsk để bắt đầu quét lỗi trên tất
+                cả các ổ cứng. Bạn cũng có thể thêm ký tự ổ cứng cụ thể để kiểm
+                tra (ví dụ chkdsk D:) và thêm "/" để sửa lỗi trên ổ cứng (ví dụ
+                chkdsk /F:), định vị các thành phần xấu và khôi phục thông tin
+                có thể đọc được (ví dụ chkdsk /R:)... Để biết tất cả các lệnh
+                chkdsk liên quan, bạn hãy nhập chkdsk /? vào CMD.
+              </p>
+            </div>
+
+            <div class="news-details-content">
+              <hr />
+              <p>
+                Chia sẻ bài viết
+                <span><i class="fas fa-thumbs-up"></i> Thích</span>
+                <span><i class="fas fa-share"></i> Chia sẻ</span>
+              </p>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Tải ứng dụng của chúng tôi</h3>
+            <p>Tải ứng dụng cho điện thoại Android và iOS.</p>
+            <div class="app-logo">
+              <img src="./images/app-store.png" alt="app store" />
+              <img src="./images/play-store.png" alt="play store" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="./images/logo.png" alt="logo" />
+            <p>
+              Chúng tôi luôn cung cấp những sản phẩm chất lượng cao, và luôn đem
+              sự hài đến với khách hàng.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Tổng đài hỗ trợ (Miễn phí gọi)</h3>
+            <ul>
+              <li>Gọi mua: 1800.1060 (7:30 - 22:00)</li>
+              <li>Kỹ thuật: 1800.1763 (7:30 - 22:00)</li>
+              <li>Khiếu nại: 1800.1062 (8:00 - 21:30)</li>
+              <li>Bảo hành: 1800.1064 (8:00 - 21:00)</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Theo dõi chúng tôi</h3>
+            <ul>
+              <li>Zalo</li>
+              <li>YouTube</li>
+              <li>Facebook</li>
+              <li>Instagram</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright &#169; 2021 - LapShop</p>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
