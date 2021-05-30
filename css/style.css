@@ -27,6 +27,32 @@ nav ul li {
   margin-right: 20px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  color: #555;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown-content li a {
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: #555;
@@ -657,7 +683,7 @@ form a {
   border-radius: 20px;
 }
 
-/* news details */
+/* news details page */
 .news-details {
   margin-bottom: 130px;
 }
@@ -676,7 +702,7 @@ form a {
 }
 .news-details img {
   width: 70%;
-} 
+}
 
 .news-details-content {
   display: flex;
@@ -700,6 +726,90 @@ form a {
 
 .news-details-img {
   text-align: center;
+}
+
+/* promotions page */
+.promotions-page {
+  margin-bottom: 130px;
+}
+
+.promotions-page h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 40px;
+}
+
+.promotions-col {
+  flex-basis: 48%;
+  padding: 25px;
+  margin: 15px 0;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.promotions-col img {
+  padding: 0;
+  height: 200px;
+  width: 100%;
+}
+
+.promotions-col h3,
+p,
+small,
+hr {
+  margin-top: 20px;
+}
+
+/* events page */
+.event-left span {
+  color: #d3d3d3;
+  font-size: 25px;
+}
+
+.event-left small {
+  margin-left: 10px;
+}
+
+.event-right {
+  padding: 10px 0;
+  flex-basis: 18%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.event-right h5 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+.event-right small {
+  padding: 0;
+  margin: 5px;
+}
+
+/* event details page */
+.event-details-header {
+  text-align: center;
+}
+
+.event-details-header h1 {
+  font-size: 50px;
+}
+
+.event-details-header span {
+  font-size: 25px;
+}
+
+.event-details-header p {
+  margin: 20px 0;
+}
+
+.event-details-content {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-top: 40px;
+  padding: 20px 0;
 }
 
 /* media query for menu */
