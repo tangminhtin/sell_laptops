@@ -14,7 +14,7 @@
       src="https://kit.fontawesome.com/3e4e248e08.js"
       crossorigin="anonymous"
     ></script>
-    <title>Giới thiệu về LapShop</title>
+    <title>Xác thực OTP</title>
   </head>
   <body>
     <div class="container">
@@ -63,32 +63,36 @@
       </div>
     </div>
 
-    <!-- about page -->
+    <!-- verify OTP page -->
     <div class="about-page">
       <div class="container">
-        <h1>Giới thiệu về LapShop</h1>
+        <h1>Xác thực OTP</h1>
         <div class="row">
           <div class="col-2">
-            <img
-              src="./images/logo.png"
-              width="400px"
-              height="460px"
-              alt="banner"
-            />
-          </div>
-          <div class="col-2">
-            <h3>Công ty TNHH LapShop</h3>
-            <p>Thương Hiệu LapShop</p>
-
-            <p>
-              Với triết lý kinh doanh: "Mang đến sự nổi bật trên từng sản phẩm"
-            </p>
-            <p>
-              Chúng tôi mong muốn đem đến cho quý khách hàng sự trãi nghiệm tốt
-              nhất về chất lượng dịch vụ và chất lượng sản phẩm. Sự hài lòng từ
-              cách phục vụ và sản phẩm tốt đến tay người tiêu dùng là niềm vui
-              của tập thể nhà LapShop.
-            </p>
+            <form class="feedback">
+              <a href="./forgot-password.html">
+                <i
+                  style="cursor: pointer; color: #92d7da; font-size: 30px"
+                  class="fas fa-arrow-left"
+                >
+                </i>
+              </a>
+              <h2>Vui lòng nhập mã xác thực OTP</h2>
+              <p style="text-align: center">
+                Mã xác minh của bạn sẽ được gửi đến tin nhắn <br />
+                <b>(+84) 394328223</b>
+                <br />
+              </p>
+              <div class="row">
+                <div id="divOuter">
+                  <div id="divInner">
+                    <input id="partitioned" type="text" maxlength="4" />
+                  </div>
+                </div>
+                <p>Vui lòng chờ 54 giây để gửi lại.</p>
+              </div>
+              <button class="btn" type="submit">Xác thực</button>
+            </form>
           </div>
         </div>
       </div>
